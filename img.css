@@ -66,11 +66,11 @@
     }
 
     .header__logo_dark {
-        content: url(img/tablet/Logo_Logitech_dark\ 1.svg);
+        content: url(img/tablet/Logo_Logitech_dark1.svg);
     }
 
     .header-menu-mobile-logo {
-        content: url(img/tablet/Logo_Logitech\ 1.svg);
+        content: url(img/tablet/Logo_Logitech1.svg);
     }
 
     .settings__slider .carousel-item:nth-child(1) img {
