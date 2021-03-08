@@ -1,0 +1,183 @@
+.navbar-light .navbar-toggler-icon {
+    background-image: url(img/mobile/menu-burger.svg);
+}
+
+.navbar-light .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background-image: url(img/mobile/Vector\ 8.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/arrow-right.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(img/arrow-left.svg);
+}
+
+.carousel-indicators_info [data-bs-slide-to="0"] {
+    background-image: url(img/textures/wood-texture.png);
+}
+
+.carousel-indicators_info [data-bs-slide-to="1"] {
+    background-image: url(img/textures/glass-texture.png);
+}
+
+.carousel-indicators_info [data-bs-slide-to="2"] {
+    background-image: url(img/textures/linoleum-texture.png);
+}
+
+.carousel-indicators_info [data-bs-slide-to="3"] {
+    background-image: url(img/textures/cloth-texture.png);
+}
+
+.carousel-indicators_info [data-bs-slide-to="4"] {
+    background-image: url(img/textures/marble-texture.png);
+}
+
+/*changed*/
+.top__img {
+    background-image: url(img/mobile/MX-Master\ 1.png);
+}
+
+.bluetooth__img {
+    background-image: url(img/mobile/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+}
+
+.flow {
+    background-image: url(img/mobile/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+}
+
+.mouse__img1 {
+    background-image: url(img/mobile/image\ 1.jpg);
+}
+
+.mouse__img2 {
+    background-image: url(img/mobile/image\ 2.jpg);
+}
+
+
+@media (min-width: 768px) {
+    .top__arrow img {
+        content: url(img/tablet/arrow.svg);
+    }
+
+    .bluetooth_icon img {
+        content: url(img/tablet/icon-bluetooth.svg);
+    }
+
+    .header__logo_dark {
+        content: url(img/tablet/Logo_Logitech_dark\ 1.svg);
+    }
+
+    .header-menu-mobile-logo {
+        content: url(img/tablet/Logo_Logitech\ 1.svg);
+    }
+
+    .settings__slider .carousel-item:nth-child(1) img {
+        content: url(img/tablet/f370c2e.png);
+    }
+
+    .settings__slider .carousel-item:nth-child(2) img {
+        content: url(img/tablet/fecdd75.png);
+    }
+
+    .settings__slider .carousel-item:nth-child(3) img {
+        content: url(img/tablet/b74bcf9.png);
+    }
+
+    .settings__slider .carousel-item:nth-child(4) img {
+        content: url(img/tablet/c075726.png);
+    }
+
+    .settings__slider .carousel-item:nth-child(5) img {
+        content: url(img/tablet/e987ca8.png);
+    }
+
+    .settings__slider .carousel-item:nth-child(6) img {
+        content: url(img/tablet/f8bf6eb.png);
+    }
+
+    /*changed*/
+    .carousel-item_info:nth-child(1) img {
+        content: url(img/tablet/wood.png);
+    }
+
+    .carousel-item_info:nth-child(2) img {
+        content: url(img/tablet/glass.png);
+    }
+
+    .carousel-item_info:nth-child(3) img {
+        content: url(img/tablet/linoleum.png);
+    }
+
+    .carousel-item_info:nth-child(4) img {
+        content: url(img/tablet/cloth.png);
+    }
+
+    .carousel-item_info:nth-child(5) img {
+        content: url(img/tablet/marble.png);
+    }
+
+    .top__img {
+        background-image: url(img/tablet/MX-Master\ 1.png);
+    }
+
+    .bluetooth__img {
+        background-image: url(img/tablet/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    }
+
+    .flow {
+        background-image: url(img/tablet/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+    }
+
+    .mouse__img1 {
+        background-image: url(img/tablet/image\ 1.jpg);
+    }
+
+    .mouse__img2 {
+        background-image: url(img/tablet/image\ 2.jpg);
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-item_info:nth-child(1) img {
+        content: url(img/desktop/wood.png);
+    }
+
+    .carousel-item_info:nth-child(2) img {
+        content: url(img/desktop/glass.png);
+    }
+
+    .carousel-item_info:nth-child(3) img {
+        content: url(img/desktop/linoleum.png);
+    }
+
+    .carousel-item_info:nth-child(4) img {
+        content: url(img/desktop/cloth.png);
+    }
+
+    .carousel-item_info:nth-child(5) img {
+        content: url(img/desktop/marble.png);
+    }
+
+    .top__img {
+        background-image: url(img/desktop/MX-Master\ 1.png);
+    }
+
+    .bluetooth__img {
+        background: url(img/desktop/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png) no-repeat left 119px,
+            url(img/desktop/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png) no-repeat right 119px;
+    }
+
+    .flow {
+        background-image: url(img/desktop/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+    }
+
+    .mouse__img1 {
+        background-image: url(img/desktop/image\ 1.jpg);
+    }
+
+    .mouse__img2 {
+        background-image: url(img/desktop/image\ 2.jpg);
+    }
+}
